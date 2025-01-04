@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+html,body{
+    height: 100%;
+    width: 100%;    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    background-image: url("https://wallpapers.com/images/hd/almost-black-with-navy-blue-background-aagwaqhmx0ggj2ny.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px 10px;
+    gap: 30px;
+}
+#guessField{
+    width: 145px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none; 
+    
+}
+
+#subt{
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    margin-top: 20px;
+   align-items: center;
+}
+
+
+
+
+
+
+
+
+
